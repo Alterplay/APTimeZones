@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.source = {
     :git => 'git@github.com:Alterplay/TimeZonesDB.git'
   }
-  s.source_files = 'TimeZonesDB/*.{h,m,json}'
+  s.source_files = 'TimeZonesDB/*.{h,m}'
   s.requires_arc = true
   s.frameworks   = 'CoreLocation'
+  s.resources = 'TimeZonesDB/timezonesDB.json'
 end
