@@ -1,7 +1,8 @@
 TimeZonesDB
 ===========
 
-TimeZonesDB signleton. The easiest way to get NSTimeZone from CLLocation. No server requests. 
+Great drop-in offline tool to get NSTimeZone from CLLocation.
+Requires ARC.
 
 Usage:
 
