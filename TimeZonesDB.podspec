@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'TimeZonesDB/*.{h,m,json}'
   s.requires_arc = true
+  s.frameworks   = 'CoreLocation'
 end
