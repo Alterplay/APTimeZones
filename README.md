@@ -1,7 +1,7 @@
 TimeZonesDB
 ===========
 
-TimeZonesDB library. The simpliest way to get NSTimeZone from CLLocation. No server requests. 
+TimeZonesDB signleton. The easiest way to get NSTimeZone from CLLocation. No server requests. 
 
 Usage:
 
