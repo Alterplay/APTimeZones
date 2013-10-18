@@ -1,7 +1,4 @@
-APTimeZones
-===========
 <img src="https://dl.dropboxusercontent.com/u/2334198/APTimeZones-git-teaser.png">
-
 
 An utility for iOS and OSX developers to simplify extracting NSTimeZone from a given CLLocation. 
 
