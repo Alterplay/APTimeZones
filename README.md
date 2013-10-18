@@ -1,7 +1,7 @@
-TimeZonesDB
+APTimeZones
 ===========
 
-TimeZonesDB library. The simpliest way to get NSTimeZone from CLLocation. No server requests. 
+APTimeZones library. The simpliest way to get NSTimeZone from CLLocation. No server requests. 
 
 Usage:
 
@@ -9,7 +9,7 @@ Usage:
             CLLocation *location = [[CLLocation alloc] initWithLatitude:50.449846
                                                               longitude:30.523629];
                                                               
-            NSTimeZone *timeZone = [[TimeZonesDB sharedInstance] timeZoneWithLocation:location];
+            NSTimeZone *timeZone = [[APTimeZones sharedInstance] timeZoneWithLocation:location];
             NSLog(@"%@", timeZone);
 Output:
 
