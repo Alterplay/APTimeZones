@@ -1,9 +1,11 @@
 APTimeZones
 ===========
 
-APTimeZones library. Great offline iOS tool to extract NSTimeZone from a given CLLocation. 
+An utility for iOS/OSX developers to simplify extracting NSTimeZone from a given CLLocation. 
 
-Usage:
+You can do the same job by calling [Google API](https://developers.google.com/maps/documentation/timezone/) or [Yahoo API](http://help.yahoo.com/l/us/yahoo/ewsapt/webservices/reference/overview/wsr_timezones.html) but APTimeZones works locally, offline and with no limits inherented to hosted solutions.
+
+###Usage:
 
     //Ukraine location
     CLLocation *location = [[CLLocation alloc] initWithLatitude:50.449846
