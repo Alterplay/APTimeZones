@@ -24,10 +24,8 @@ You can use APTimeZones with Apple CLGeocoder as well to receive NSTimeZone for 
             NSString *countryCode = placemark.addressDictionary[@"CountryCode"];
             NSTimeZone *timeZone = [[APTimeZones sharedInstance] timeZoneWithLocation:location
                                                                           countryCode:countryCode];
-            completion(timeZone);
-        } else {
-            completion([NSTimeZone systemTimeZone]);
-        }
+            NSLog(@"%@", timeZone);
+        } 
     }];
 
 
