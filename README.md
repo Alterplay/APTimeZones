@@ -1,7 +1,9 @@
 APTimeZones
 ===========
+<img src="https://dl.dropboxusercontent.com/u/2334198/APTimeZones-git-teaser.png">
 
-An utility for iOS/OSX developers to simplify extracting NSTimeZone from a given CLLocation. 
+
+An utility for iOS and OSX developers to simplify extracting NSTimeZone from a given CLLocation. 
 
 You can do the same job by calling [Google API](https://developers.google.com/maps/documentation/timezone/) or [Yahoo API](http://help.yahoo.com/l/us/yahoo/ewsapt/webservices/reference/overview/wsr_timezones.html) but APTimeZones works locally, offline and with no limits inherented to hosted solutions.
 
@@ -30,4 +32,8 @@ You can use APTimeZones with Apple CLGeocoder as well to receive NSTimeZone for 
         } 
     }];
 
+
+If you have improvements or concerns then create [an issue](https://github.com/Alterplay/APTimeZones/issues) and write details.
+
+*[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%20APTimeZone) with other ideas and projects.*
 
