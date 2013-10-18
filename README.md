@@ -1,7 +1,7 @@
 APTimeZones
 ===========
 
-APTimeZones library. The simpliest way to get NSTimeZone from CLLocation. No server requests. 
+APTimeZones library. Great offline iOS tool to extract NSTimeZone from a given CLLocation. 
 
 Usage:
 
@@ -11,6 +11,23 @@ Usage:
                                                               
             NSTimeZone *timeZone = [[APTimeZones sharedInstance] timeZoneWithLocation:location];
             NSLog(@"%@", timeZone);
-Output:
 
-Europe/Kiev (GMT+03:00) offset 10800 (Daylight) 
+
+You can use APTimeZones with Apple CLGeocoder as well to receive NSTimeZone for a given city string.  
+
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    [geocoder geocodeAddressString:@"New York" completionHandler:^(NSArray *placemarks, NSError *error) {
+        if (placemarks.count) {
+            CLPlacemark *placemark = placemarks[0];
+            CLLocation *location = placemark.location;
+            
+            NSString *countryCode = placemark.addressDictionary[@"CountryCode"];
+            NSTimeZone *timeZone = [[APTimeZones sharedInstance] timeZoneWithLocation:location
+                                                                          countryCode:countryCode];
+            completion(timeZone);
+        } else {
+            completion([NSTimeZone systemTimeZone]);
+        }
+    }];
+
+
