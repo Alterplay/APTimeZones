@@ -13,4 +13,4 @@ Usage:
             NSLog(@"%@", timeZone);
 Output:
 
-Europe/Kiev (GMT+03:00) offset 10800 (Daylight)
+Europe/Kiev (GMT+03:00) offset 10800 (Daylight) 
