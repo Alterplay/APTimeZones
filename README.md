@@ -30,7 +30,10 @@ You can use APTimeZones with Apple CLGeocoder as well to receive NSTimeZone for 
     }];
 
 
-If you have improvements or concerns then create [an issue](https://github.com/Alterplay/APTimeZones/issues) and write details.
 
-*[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%20APTimeZone) with other ideas and projects.*
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/37d1f4beb3d0ef7b866eec21b27ecc5f "githalytics.com")](http://githalytics.com/Alterplay/APTimeZones)
+If you have improvements or concerns, feel free to post [an issue](https://github.com/Alterplay/APTimeZones/issues) and write details.
 
+=======================
+*[Check out](https://github.com/Alterplay) all Alterplay's GitHub projects.*
+*[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%20APTimeZones) with other ideas and projects.*
