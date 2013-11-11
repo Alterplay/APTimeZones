@@ -26,6 +26,8 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
+#import "CLLocation+APTimeZones.h"
+#import "CLPlacemark+APTimeZones.h"
 
 @interface APTimeZones : NSObject
 
