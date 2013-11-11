@@ -31,7 +31,9 @@ You can use APTimeZones with Apple CLGeocoder as well to receive NSTimeZone for 
 
 ###Version 1.1:
 We've added some handy categories with version 1.1 to make timezones magic even more easy.
+
 CLLocation+APTimeZones
+
 CLPlacemark+APTimeZones
 
 Usage:
@@ -42,7 +44,7 @@ Usage:
     CLPlacemark *placemark = ...;
     NSLog(@"%@", placemark.timeZone);
 
-Also, we've added example project that shows APTimeZones usage:
+Also, we've added example project that shows APTimeZones usage [<a href="http://www.youtube.com/watch?v=JwB_E9xCAKg">Demo Video on YouTube</a>]:
 
 <table border-width=0><tr>
 <td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APTimeZones/screenshowMap.png"></td>
