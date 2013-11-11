@@ -44,15 +44,12 @@ Usage:
     CLPlacemark *placemark = ...;
     NSLog(@"%@", placemark.timeZone);
 
-Also, we've added example project that shows APTimeZones usage [<a href="https://dl.dropboxusercontent.com/u/11819370/APTimeZones/APTimeZonesDemo.mov">Demo video</a>]:
+Also, we've added example project that shows APTimeZones usage [<a href="http://www.youtube.com/watch?v=JwB_E9xCAKg">Demo Video on YouTube</a>]:
 
 <table border-width=0><tr>
 <td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APTimeZones/screenshowMap.png"></td>
 <td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APTimeZones/screenshotGeoCoder.png"></td>
 </tr></table>
-
-[linkname](http://youtu.be/JwB_E9xCAKg)
-
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/37d1f4beb3d0ef7b866eec21b27ecc5f "githalytics.com")](http://githalytics.com/Alterplay/APTimeZones)
 If you have improvements or concerns, feel free to post [an issue](https://github.com/Alterplay/APTimeZones/issues) and write details.
