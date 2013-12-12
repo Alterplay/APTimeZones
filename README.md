@@ -55,5 +55,5 @@ Also, we've added example project that shows APTimeZones usage [<a href="http://
 If you have improvements or concerns, feel free to post [an issue](https://github.com/Alterplay/APTimeZones/issues) and write details.
 
 =======================
-*[Check out](https://github.com/Alterplay) all Alterplay's GitHub projects.*
-*[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%20APTimeZones) with other ideas and projects.*
+[Check out](https://github.com/Alterplay) all Alterplay's GitHub projects.
+[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%20APTimeZones) with other ideas and projects.
