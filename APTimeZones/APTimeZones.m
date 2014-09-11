@@ -98,7 +98,7 @@
  Import from DB
  */
 - (NSArray *)importDataBaseFromFile:(NSString *)fileName {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:nil];
+    NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:fileName ofType:nil];
     NSData *jsonData = [NSData dataWithContentsOfFile:filePath];
     
     NSAssert(jsonData.length != 0, @"timezonesDB.json not found in app bundle");
