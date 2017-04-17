@@ -4,7 +4,7 @@ An utility for iOS and OSX developers to simplify extracting NSTimeZone from a g
 
 You can do the same job by calling [Google API](https://developers.google.com/maps/documentation/timezone/) or [Yahoo API](http://help.yahoo.com/l/us/yahoo/ewsapt/webservices/reference/overview/wsr_timezones.html) but APTimeZones works locally, offline and with no limits inherented to hosted solutions.
 
-###Usage:
+### Usage:
 
     //Ukraine location
     CLLocation *location = [[CLLocation alloc] initWithLatitude:50.449846
@@ -29,7 +29,7 @@ You can use APTimeZones with Apple CLGeocoder as well to receive NSTimeZone for 
         } 
     }];
 
-###Version 1.1:
+### Version 1.1:
 We've added some handy categories with version 1.1 to make timezones magic even more easy.
 
 CLLocation+APTimeZones
