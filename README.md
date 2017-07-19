@@ -46,11 +46,8 @@ CLPlacemark+APTimeZones
 
 Also, we've added example project that shows APTimeZones usage [<a href="http://www.youtube.com/watch?v=JwB_E9xCAKg">Demo Video on YouTube</a>]:
 
-![Alt text](https://raw.github.com/Krivoblotsky/APTimeZones/master/Resources/screenshowMap.png "Optional Title")
-<table border-width=0><tr>
-<td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APTimeZones/screenshowMap.png"></td>
-<td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APTimeZones/screenshotGeoCoder.png"></td>
-</tr></table>
+![Map](https://raw.github.com/Krivoblotsky/APTimeZones/master/Resources/screenshowMap.png "Map" =320x)
+![Geocoder](https://raw.github.com/Krivoblotsky/APTimeZones/master/Resources/screenshotGeoCoder "Geocoder")
 
 #### APTimeZones requires ARC.
 
